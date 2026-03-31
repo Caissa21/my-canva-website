@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+background-color:rgb(250, 250, 250);
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+
+.nav-container{
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+width: 100%;
+}
+
+.navbar h1 {
+margin: 0;
+font-size: 24px;
+color: #111827;
+}
+
+.nav-menu {
+list-style: none;
+display: flex;
+gap: 30px;
+margin: 0;
+padding: 0;
+margin-left: auto;
+}
+
+.nav-menu li a {
+text-decoration: none;
+color: #4b5563;
+font-weight: 500;
+padding: 8px 0;
+}
+
+.nav-menu li a:hover {
+color: #d97706;
+}
+
+.nav-menu li a.active {
+color: #d97706;
+font-weight: bold;
+}
+
+.hero {
+    background-image: url('../images/interior.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+font-size: 56px;
+margin: 0 0 20px 0;
+}
+
+
+.hero p {
+font-size: 24px;
+margin: 0 0 30px 0;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+border: none;
+border-radius: 30px;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.btn-primary {
+background-color: #d97706;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #b45309;
+}
+
+.btn-secondary {
+    background-color: #92400e;
+    color: white;
+}
+
+.btn-secondary:hover {
+background-color: #78350f;
+}
+
+.why-choose-us {
+padding: 80px 20px;
+text-align: center;
+background-color: #f9fafb;
+}
+
+.why-choose-us h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 50px;
+}
+
+.cards-grid {
+display: flex;
+justify-content: center;
+gap: 30px;
+max-width: 1300px;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: rgb(236, 235, 235);
+padding: 30px;
+border-radius: 12px;
+text-align: center;
+flex: 0 0 220px;
+transition: transform 0.3s ease;
+display: flex;
+flex-direction: column;
+min-height: 280px;
+}
+
+.card:hover {
+transform: translateY(-10px);
+}
+
+.card-icon {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.card h3 {
+font-size: 25px;
+color: #111827;
+margin-bottom: 15px;
+}
+
+.card p {
+color: #4b5563;
+line-height: 1.5;
+flex-grow: 1;
+}
+
+.featured-dishes {
+padding: 80px 20px;
+text-align: center;
+background-color: white;
+}
+
+.featured-dishes h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 50px;
+}
+
+.dishes-grid {
+display: flex;
+justify-content: center;
+gap: 100px;
+max-width: 1200px;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+
+.dish-card {
+background-color: #f9fafb;
+border-radius: 12px;
+overflow: hidden;
+width: 300px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.dish-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.dish-card h3 {
+font-size: 22px;
+color: #111827;
+margin: 20px 0 10px;
+padding: 0 15px;
+}
+
+.dish-card p {
+color: #4b5563;
+padding: 0 15px 20px;
+line-height: 1.5;
+}
+
+.cta-banner {
+background-color: #d97706;
+padding: 80px 20px;
+text-align: center;
+color: white;
+}
+
+.cta-banner h2 {
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+.cta-banner .btn-secondary {
+background-color: white;
+color: #d97706;
+}
+
+.cta-banner .btn-secondary:hover {
+background-color: #fef3c7;
+color: #b45309;
+}
+
+.footer {
+background-color: #111827;
+color: #9ca3af;
+padding: 60px 20px 30px;
+}
+
+.footer-content {
+display: flex;
+justify-content: center;
+max-width: 1200px;
+margin: 0 auto;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.footer-section {
+text-align: center;
+min-width: 200px;
+}
+
+.footer-section h4 {
+color: white;
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.footer-section p {
+line-height: 1.6;
+margin: 5px 0;
+}
+
+.footer-bottom {
+text-align: center;
+padding-top: 40px;
+margin-top: 40px;
+border-top: 1px solid #374151;
+font-size: 14px;
+}
+
+ 
+
+
+
+
