@@ -1,10 +1,197 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>My First Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Food Business Website</title>
   </head>
   <body>
-    <!-- Your content goes here -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div><h1>🍽️ Savory Bistro</h1></div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger"></div>
+      </div>
+    </nav>
+    <section class="page-hero">
+      <div class="page-hero-content">
+        <h1>Our Menu</h1>
+        <p>Discover our carefully crafted dishes made with the finest ingredients</p>
+      </div>
+    </section>
+    <div class="category-tabs">
+      <button class="tab-btn active">Appetizers</button>
+      <button class="tab-btn">Mains</button>
+      <button class="tab-btn">Desserts</button>
+      <button class="tab-btn">Beverages</button>
+    </div>
+    <div class="menu-grid">
+
+       <!-- Appetizers (6 items) -->
+
+      <div class="menu-item">
+        <h3>Garlic Butter Shrimp</h3>
+        <p>Succulent shrimp sautéed in rich garlic butter, finished with fresh herbs and a squeeze of lemon for a bold, savory start to your meal.</p>
+        <span class="price">₱295</span>
+      </div>
+      <div class="menu-item">
+        <h3>Crispy Calamari</h3>
+        <p>Lightly breaded squid rings fried to golden perfection, served with a tangy marinara dipping sauce.</p>
+        <span class="price">₱280</span>
+      </div>
+      <div class="menu-item">
+        <h3>Bruschetta Trio</h3>
+        <p>Toasted artisan bread topped with fresh tomatoes, basil, garlic, and olive oil—simple, vibrant, and full of flavor.</p>
+        <span class="price">₱210</span>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken Wings</h3>
+        <p>Juicy chicken wings tossed in your choice of classic buffalo or sweet barbecue sauce, served hot and crispy.</p>
+        <span class="price">₱250</span>
+      </div>
+      <div class="menu-item">
+        <h3>Mozzarella Sticks</h3>
+        <p>Golden-fried mozzarella cheese sticks with a crispy coating, served with warm marinara sauce for dipping.</p>
+        <span class="price">₱220</span>
+      </div>
+      <div class="menu-item">
+        <h3>Spinach and Artichoke Dip</h3>
+        <p>A creamy blend of spinach, artichokes, and melted cheese, served warm with toasted bread or tortilla chips.</p>
+        <span class="price">₱260</span>
+      </div>
+
+      <!-- Mains (6 items) -->
+
+      <div class="menu-item">
+        <h3>Grilled Ribeye Steak</h3>
+        <p>Juicy, perfectly grilled ribeye steak seasoned with herbs and spices, served with garlic mashed potatoes and steamed vegetables.</p>
+        <span class="price">₱695</span>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken Alfredo Pasta</h3>
+        <p>Creamy fettuccine pasta tossed with tender grilled chicken and rich Alfredo sauce, topped with parmesan cheese.</p>
+        <span class="price">₱345</span>
+      </div>
+      <div class="menu-item">
+        <h3>Beef Burger with Fries</h3>
+        <p>A hearty beef patty grilled to perfection, topped with fresh lettuce, tomato, and cheese, served with crispy golden fries.</p>
+        <span class="price">₱295</span>
+      </div>
+      <div class="menu-item">
+        <h3>Seafood Fried Rice</h3>
+        <p>Flavorful fried rice loaded with shrimp, squid, and fish, stir-fried with vegetables and savory seasonings.</p>
+        <span class="price">₱320</span>
+      </div>
+      <div class="menu-item">
+        <h3>Pork BBQ Platter</h3>
+        <p>Tender marinated pork skewers grilled over charcoal, served with rice and a side of pickled vegetables.</p>
+        <span class="price">₱260</span>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken Teriyaki</h3>
+        <p>Grilled chicken glazed with sweet and savory teriyaki sauce, served with steamed rice and sautéed vegetables.</p>
+        <span class="price">₱280</span>
+      </div>
+
+      <!-- Desserts (6 items) -->
+
+      <div class="menu-item">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm chocolate cake with a rich, gooey center, served with a scoop of vanilla ice cream.</p>
+        <span class="price">₱195</span>
+      </div>
+      <div class="menu-item">
+        <h3>Classic Cheesecake</h3>
+        <p>Smooth and creamy cheesecake with a buttery graham cracker crust, topped with sweet strawberry sauce.</p>
+        <span class="price">₱180</span>
+      </div>
+      <div class="menu-item">
+        <h3>Mango Float</h3>
+        <p>Layers of sweet ripe mangoes, cream, and graham crackers chilled to perfection—a Filipino favorite.</p>
+        <span class="price">₱150</span>
+      </div>
+      <div class="menu-item">
+        <h3>Brownie Sundae</h3>
+        <p>Fudgy chocolate brownie topped with vanilla ice cream, chocolate syrup, and whipped cream.</p>
+        <span class="price">₱165</span>
+      </div>
+      <div class="menu-item">
+        <h3>Halo-Halo</h3>
+        <p>A refreshing mix of crushed ice, sweet beans, fruits, leche flan, and ube ice cream—perfect for hot days.</p>
+        <span class="price">₱170</span>
+      </div>
+      <div class="menu-item">
+        <h3>Banana Split</h3>
+        <p>Fresh bananas topped with scoops of ice cream, chocolate syrup, nuts, and whipped cream.</p>
+        <span class="price">₱175</span>
+      </div>
+
+      <!-- Beverages (6 items) -->
+
+      <div class="menu-item">
+        <h3>Iced Tea</h3>
+        <p>Refreshing brewed tea served chilled with a slice of lemon.</p>
+        <span class="price">₱90</span>
+      </div>
+      <div class="menu-item">
+        <h3>Fresh Lemonade</h3>
+        <p>Freshly squeezed lemons mixed with cold water and a touch of sweetness for a refreshing drink.</p>
+        <span class="price">₱95</span>
+      </div>
+      <div class="menu-item">
+        <h3>Mango Shake</h3>
+        <p>Creamy blended ripe mangoes served ice-cold for a sweet tropical treat.</p>
+        <span class="price">₱120</span>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>Rich espresso topped with steamed milk and a light foam layer.</p>
+        <span class="price">₱130</span>
+      </div>
+      <div class="menu-item">
+        <h3>Bottled Water</h3>
+        <p>Pure, refreshing bottled drinking water.</p>
+        <span class="price">₱40</span>
+      </div>
+      <div class="menu-item">
+        <h3>Soft Drinks</h3>
+        <p>Your choice of classic carbonated beverages served ice-cold.</p>
+        <span class="price">₱75</span>
+      </div>
+    </div>
+
+
+          <!--FOOTER-->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>About Us:</h4>
+          <p>
+            Savory Bistro is dedicated to providing exceptional dining
+            experiences with the finest cuisine and warm hospitality.
+          </p>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact:</h4>
+          <p>Email: info@savory-bistro.com Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Hours:</h4>
+          <p>Mon-Thu: 11am - 10pm Fri-Sat: 11am - 11pm Sun: 12pm - 9pm</p>
+        </div>
+      </div>
+      <p>Copyright: "© 2026 Savory Bistro. All rights reserved."</p>
+    </footer>
   </body>
 </html>
