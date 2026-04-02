@@ -1,12 +1,18 @@
+
+
+
+                        /* ==================== INDEX(MOSTLY) PAGE AND OTHERS ==================== */
+
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .navbar {
@@ -147,14 +153,14 @@ margin-bottom: 50px;
 .cards-grid {
 display: flex;
 justify-content: center;
-gap: 30px;
+gap: 120px;
 max-width: 1300px;
 margin: 0 auto;
 flex-wrap: wrap;
 }
 
 .card {
-background-color: rgb(236, 235, 235);
+background-color: rgb(255, 255, 255);
 padding: 30px;
 border-radius: 12px;
 text-align: center;
@@ -299,8 +305,303 @@ margin-top: 40px;
 border-top: 1px solid #374151;
 font-size: 14px;
 }
+ 
+
+
+      
+                        /* ==================== MENU PAGE ==================== */
+
+
+
+
+
+.page-hero {
+height: 40vh;
+background-color: #d97706;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 0;
+padding-top: 70px;
+}
+
+.page-hero-content {
+color: #ffffff;
+}
+
+.page-hero-content h1 {
+font-size: 48px;
+margin-bottom: 15px;
+}
+
+.category-tabs {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin: 50px 0;
+flex-wrap: wrap;
+}
+
+.tab-btn {
+padding: 10px 30px;
+background-color: transparent;
+border: 2px solid #d97706;
+border-radius: 30px;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+background-color: #d97706;
+color: white;
+}
+
+.menu-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto 80px;
+padding: 0 20px;
+}
+
+.menu-item {
+background-color: #f9fafb;
+padding: 25px;
+border-radius: 12px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+font-size: 22px;
+color: #111827;
+margin-bottom: 12px;
+}
+
+.menu-item p {
+color: #4b5563;
+line-height: 1.5;
+margin-bottom: 15px;
+}
+
+.price {
+display: inline-block;
+font-weight: bold;
+color: #d97706;
+font-size: 18px;
+}
+ 
+
+
+      
+                        /* ==================== ABOUT PAGE ==================== */
 
  
+
+
+      
+.story-section {
+padding: 80px 20px;
+background-color: #f9fafb;
+}
+
+.story-container {
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+align-items: center;
+}
+
+.story-text h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 20px;
+}
+
+.story-text p {
+font-size: 16px;
+color: #4b5563;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.story-image img {
+width: 100%;
+border-radius: 12px;
+height: 400px;
+object-fit: cover;
+}
+
+
+.values-section {
+padding: 80px 20px;
+text-align: center;
+background-color: #f9fafb;
+}
+
+.values-section h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 50px;
+}
+
+.values-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.values-card {
+background-color: white;
+padding: 30px;
+border-radius: 12px;
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.values-card:hover {
+transform: translateY(-5px);
+}
+
+.value-icon {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.values-card h3 {
+font-size: 22px;
+color: #111827;
+margin-bottom: 15px;
+}
+
+.values-card p {
+color: #4b5563;
+line-height: 1.5;
+}
+
+
+
+
+
+
+.farm-section {
+padding: 80px 20px;
+background-color: white;
+}
+
+.farm-container {
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+align-items: center;
+}
+
+.farm-image img {
+width: 100%;
+border-radius: 12px;
+height: 400px;
+object-fit: cover;
+object-position: 30% 50%;
+}
+
+.farm-text h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 20px;
+}
+
+.farm-text p {
+font-size: 16px;
+color: #4b5563;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.team-section {
+padding: 80px 20px;
+text-align: center;
+background-color: #f9fafb;
+}
+
+.team-section h2 {
+font-size: 36px;
+color: #111827;
+margin-bottom: 50px;
+}
+
+.team-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.team-card {
+background-color: white;
+padding: 30px;
+border-radius: 12px;
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.team-card:hover  {
+transform: translateY(-5px);
+}
+
+.team-icon {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.team-card h3 {
+font-size: 20px;
+color: #111827;
+margin-bottom: 10px;
+}
+
+.team-card p {
+color: #4b5563;
+font-size: 14px;
+line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
