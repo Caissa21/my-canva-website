@@ -580,24 +580,76 @@ color: #4b5563;
 font-size: 14px;
 line-height: 1.5;
 }
+ 
 
 
+      
+                        /* ==================== CONTACT PAGE ==================== */
+ 
 
 
+      
 
+.contact-section {
+padding: 80px 20px;
+background-color: #f9fafb;
+}
 
+.contact-container {
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+}
 
+.contact-info h2 {
+font-size: 28px;
+color: #111827;
+margin-bottom: 20px;
+}
 
+.contact-info p {
+color: #4b5563;
+line-height: 1.6;
+margin-bottom: 10px;
+}
 
+.contact-info h3 {
+font-size: 20px;
+color: #111827;
+margin-top: 20px;
+margin-bottom: 15px;
+}
 
+.contact-form h2 {
+font-size: 28px;
+color: #111827;
+margin-bottom: 20px
+}
 
+.contact-form form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
 
+.contact-form input, .contact-form textarea {
+padding: 12px;
+border: 1px solid #d1d5db;
+border-radius: 8px;
+font-size: 16px;
+font-family: inherit;
+}
 
+.contact-form textarea {
+min-height: 100px;
+resize: vertical;
+}
 
-
-
-
-
+.contact-form button {
+margin-top: 15px;
+}
 
 
 
