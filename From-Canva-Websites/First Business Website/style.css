@@ -275,7 +275,7 @@ padding: 60px 20px 30px;
 
 .footer-content {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 max-width: 1200px;
 margin: 0 auto;
 flex-wrap: wrap;
@@ -283,7 +283,7 @@ gap: 40px;
 }
 
 .footer-section {
-text-align: center;
+flex: 1;
 min-width: 200px;
 }
 
