@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  background-color: rgb(30, 30, 30);
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+#display {
+  background-color: rgb(91, 90, 90);
+  color: white;
+  font-size: 48px;
+  text-align: right;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.row button {
+  flex: 1;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.last-row button:first-child {
+  flex: 3.2;
+  background-color: rgb(154, 152, 152);
+  color: white;
+}
+
+.last-row button:first-child:hover {
+  background-color: rgb(64, 64, 64);
+}
+
+.last-row button {
+  flex: 1;
+}
+
+.numbers {
+  background-color: rgb(154, 152, 152);
+  color: white;
+}
+
+.numbers:hover {
+  background-color: rgb(64, 64, 64);
+}
+
+.operator {
+  background-color: rgb(221, 143, 0);
+  color: white;
+}
+
+.operator:hover {
+  background-color: rgb(83, 54, 0);
+}
+
+.others {
+  background-color: rgb(245, 244, 244);
+  color: rgb(0, 0, 0);
+}
+
+.others:hover {
+  background-color: rgb(133, 133, 133);
+  color: rgb(255, 255, 255);
+}
